@@ -159,7 +159,7 @@ pipeline {
             steps { sh "trivy image nasi101/netflix:latest > trivyimage.txt" }
         }
         stage('🚀 Deploy to Container') {
-            steps { sh 'docker run -d --name netflix -p 8081:80 nasi101/netflix:latest' }
+            steps { sh 'docker run -d --name netflix -p 8081:80 abhayshaw0125/netflix:latest' }
         }
     }
 }
@@ -295,3 +295,5 @@ sudo systemctl restart jenkins
 . **Implement Notification Services:**
     - Set up email notifications in Jenkins or other notification mechanisms.
 - This logs on any failure on the pipeline to the designated email
+  <img width="1512" height="208" alt="image" src="https://github.com/user-attachments/assets/1caba5d5-66fc-4ae5-8b30-13ad78c20a87" />
+
