@@ -296,6 +296,3 @@ sudo systemctl restart jenkins
 . **Implement Notification Services:**
     - Set up email notifications in Jenkins or other notification mechanisms.
 - This logs on any failure on the pipeline to the designated email
-
- Th```
-
