@@ -1,5 +1,4 @@
-# 🚀 Deploy Netflix Clone on Cloud using Jenkins - DevSecOps Project!  
-
+# 🚀 Netflix Clone – CI/CD Pipeline with Jenkins (CI Implemented)
 ---
 
 ## **Phase 1: Initial Setup and Deployment**  
